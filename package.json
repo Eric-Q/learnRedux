@@ -1,0 +1,46 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "this is a demo for redux learning",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eric-Q/learnRedux.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-saga"
+  ],
+  "author": "Eric",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eric-Q/learnRedux/issues"
+  },
+  "homepage": "https://github.com/Eric-Q/learnRedux#readme",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-react": "^6.23.0",
+    "bluebird": "^3.5.0",
+    "eslint": "^3.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.1.0",
+    "koa-body": "^1.6.0",
+    "koa-compress": "^2.0.0",
+    "koa-error": "^3.0.0",
+    "koa-generic-session": "^1.11.5",
+    "koa-logger": "^2.0.1",
+    "koa-passport": "^3.0.0",
+    "koa-router": "^5.4.0",
+    "koa-validate": "^1.0.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}
